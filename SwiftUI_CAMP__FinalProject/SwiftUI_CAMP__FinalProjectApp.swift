@@ -6,12 +6,25 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
-struct SwiftUI_CAMP__FinalProjectApp: App {
+struct SwiftUI_Camp_TodolistApp: App {
+    
+    let container:ModelContainer
+    
+    init(){
+        do{
+            container = try ModelContainer(for: wantToGo.self)
+        }catch{
+            fatalError("Error")
+        }
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .environment(\.modelContext, container.mainContext)
     }
 }

@@ -14,6 +14,12 @@
 		9AF827962C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF827952C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectTests.swift */; };
 		9AF827A02C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8279F2C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITests.swift */; };
 		9AF827A22C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF827A12C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITestsLaunchTests.swift */; };
+		9AF827B22C1E87CB00C07883 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF827AF2C1E86F200C07883 /* MapKit.framework */; };
+		9AF827B92C1EBE1700C07883 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF827B82C1EBE1700C07883 /* LocationDetailView.swift */; };
+		9AF827BC2C1EC70000C07883 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF827BA2C1EC6FF00C07883 /* Places.swift */; };
+		9AF827BE2C1ECD0C00C07883 /* WantToGoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF827BD2C1ECD0C00C07883 /* WantToGoRow.swift */; };
+		9AF827C02C1ECD4700C07883 /* WantToGoLay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF827BF2C1ECD4700C07883 /* WantToGoLay.swift */; };
+		9AF827C32C1EE03A00C07883 /* lanchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF827C22C1EE03A00C07883 /* lanchscreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,14 @@
 		9AF8279B2C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_CAMP__FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF8279F2C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CAMP__FinalProjectUITests.swift; sourceTree = "<group>"; };
 		9AF827A12C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CAMP__FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AF827AF2C1E86F200C07883 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9AF827B52C1E8D2A00C07883 /* SwiftUI-CAMP--FinalProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-CAMP--FinalProject-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9AF827B82C1EBE1700C07883 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		9AF827BA2C1EC6FF00C07883 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		9AF827BD2C1ECD0C00C07883 /* WantToGoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WantToGoRow.swift; path = "../../../Downloads/Final-part1/Final-part1/WantToGoRow.swift"; sourceTree = "<group>"; };
+		9AF827BF2C1ECD4700C07883 /* WantToGoLay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantToGoLay.swift; sourceTree = "<group>"; };
+		9AF827C12C1EDBAE00C07883 /* SwiftUI_CAMP__FinalProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_CAMP__FinalProject.entitlements; sourceTree = "<group>"; };
+		9AF827C22C1EE03A00C07883 /* lanchscreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = lanchscreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF827B22C1E87CB00C07883 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,7 @@
 				9AF827942C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectTests */,
 				9AF8279E2C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITests */,
 				9AF827822C1E853C00C07883 /* Products */,
+				9AF827AE2C1E86F200C07883 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +110,17 @@
 		9AF827832C1E853C00C07883 /* SwiftUI_CAMP__FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				9AF827C12C1EDBAE00C07883 /* SwiftUI_CAMP__FinalProject.entitlements */,
+				9AF827BB2C1EC6FF00C07883 /* Model */,
+				9AF827B52C1E8D2A00C07883 /* SwiftUI-CAMP--FinalProject-Info.plist */,
 				9AF827842C1E853C00C07883 /* SwiftUI_CAMP__FinalProjectApp.swift */,
+				9AF827BD2C1ECD0C00C07883 /* WantToGoRow.swift */,
 				9AF827862C1E853C00C07883 /* ContentView.swift */,
 				9AF827882C1E853E00C07883 /* Assets.xcassets */,
 				9AF8278A2C1E853E00C07883 /* Preview Content */,
+				9AF827B82C1EBE1700C07883 /* LocationDetailView.swift */,
+				9AF827BF2C1ECD4700C07883 /* WantToGoLay.swift */,
+				9AF827C22C1EE03A00C07883 /* lanchscreen.storyboard */,
 			);
 			path = SwiftUI_CAMP__FinalProject;
 			sourceTree = "<group>";
@@ -125,6 +148,23 @@
 				9AF827A12C1E853E00C07883 /* SwiftUI_CAMP__FinalProjectUITestsLaunchTests.swift */,
 			);
 			path = SwiftUI_CAMP__FinalProjectUITests;
+			sourceTree = "<group>";
+		};
+		9AF827AE2C1E86F200C07883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF827AF2C1E86F200C07883 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AF827BB2C1EC6FF00C07883 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AF827BA2C1EC6FF00C07883 /* Places.swift */,
+			);
+			name = Model;
+			path = "../../../Downloads/Final-part1/Final-part1/Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +273,7 @@
 			files = (
 				9AF8278C2C1E853E00C07883 /* Preview Assets.xcassets in Resources */,
 				9AF827892C1E853E00C07883 /* Assets.xcassets in Resources */,
+				9AF827C32C1EE03A00C07883 /* lanchscreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF827872C1E853C00C07883 /* ContentView.swift in Sources */,
+				9AF827BE2C1ECD0C00C07883 /* WantToGoRow.swift in Sources */,
 				9AF827852C1E853C00C07883 /* SwiftUI_CAMP__FinalProjectApp.swift in Sources */,
+				9AF827B92C1EBE1700C07883 /* LocationDetailView.swift in Sources */,
+				9AF827BC2C1EC70000C07883 /* Places.swift in Sources */,
+				9AF827C02C1ECD4700C07883 /* WantToGoLay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,16 +464,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftUI_CAMP__FinalProject/SwiftUI_CAMP__FinalProject.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_CAMP__FinalProject/Preview Content\"";
+				DEVELOPMENT_TEAM = JG424ALXJR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-CAMP--FinalProject-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = lanchscreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +488,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Aszerdev.SwiftUI-CAMP--FinalProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,16 +500,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftUI_CAMP__FinalProject/SwiftUI_CAMP__FinalProject.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_CAMP__FinalProject/Preview Content\"";
+				DEVELOPMENT_TEAM = JG424ALXJR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-CAMP--FinalProject-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = lanchscreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +524,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Aszerdev.SwiftUI-CAMP--FinalProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
